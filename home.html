@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="home.css">
+<title>BLANK</title> <!-- This is just a placeholder name until we decide the official one. -->
+</head>
+<body>
+<div class="home-border">
+<h1 class="home-name">BLANK</h1> <!-- placeholder -->
+<button class="home-sign-in js-sign-in" id="right-side">Sign In</button>
+<button class="home-sign-up js-sign-up" id="right-side">Sign Up</button>
+</div>
+<br>
+<div class="enter-country-div">
+  <input type="text" list="countries" class="enter-country-start js-country-start" placeholder="From">
+  <datalist id="countries">
+    <option value="Paris, France">
+    <!-- We'll add more later when we get customers and stuff -->
+  </datalist>
+  
+  <input type="text" list="destinations" class="enter-country-end js-country-end" placeholder="To">
+  <datalist id="destinations">
+    <option value="New York, USA">
+    <!-- We'll make it where people can connect their airfrance/brussels/whatever to the website and it'll register on here as an option for people to take deliveries through -->
+  </datalist>
+  
+<button class="search-button">Search</button>
+</div>
+<br>
+<button class="home-sign-in js-sign-in-bottom">Sign In</button>
+
+
+<script src="home.js"></script>
+</body>
+</html>
