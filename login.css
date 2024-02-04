@@ -1,0 +1,7 @@
+body {
+  margin: 100px 25%; 
+}
+
+.hide-user, .hide-pass {
+  display: none;
+}
